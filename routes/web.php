@@ -33,3 +33,7 @@ Route::get('/registration', function () {
 Route::get('/profile', function () {
     return view('admin.profile.profile');
 });
+
+Route::get('/data-mngt', function () {
+    return view('admin.data-mngt.data-mngt');
+});
